@@ -31,6 +31,8 @@ public class Word {
 
 
     private static final int NO_IMAGE_PROVIDED = -1;
+
+
     /**
      * Create a new Word object.
      *
@@ -42,6 +44,7 @@ public class Word {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mimageResourceId = imageResourceId;
+
     }
 
     public Word(String defaultTranslation, String miwokTranslation) {
@@ -72,4 +75,9 @@ public class Word {
     public boolean hasImage() {
         return mimageResourceId != NO_IMAGE_PROVIDED;
     }
+
+
+
+
 }
+
